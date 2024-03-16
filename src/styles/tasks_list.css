@@ -1,0 +1,58 @@
+@import './base.css';
+
+ul, li {
+	width: min(45vw, 700px);
+    padding-inline-start: 0px; 
+}
+
+li {
+	margin-bottom: 1em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+li::before {
+    content: "\2630";
+	font-size: large;
+}
+
+li:last-child {
+	margin-bottom: 0;
+}
+
+li > span {
+	width: min(25vw, 700px);
+	overflow-wrap: break-word;
+	text-align: start;
+}
+
+article {
+	width: min(35vw, 500px);
+	height: 55vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+article > span {
+	font-size: 2em;
+}
+
+article > div > svg {
+	height: 10vh;
+	width: 10vh;
+}
+
+@media (max-width: 500px) {
+	article {
+		width: min(55vw, 500px);
+	}
+
+	ul, li {
+		width: min(55vw, 700px);
+		padding-inline-start: 0px; 
+	}
+}

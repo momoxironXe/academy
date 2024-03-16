@@ -1,0 +1,13 @@
+@import './base.css';
+
+footer {
+	height: 15vh;
+	position: fixed;
+	bottom: 0;
+	transform-origin: bottom;
+}
+
+p {
+	font-size: 1.5em;
+}
+  

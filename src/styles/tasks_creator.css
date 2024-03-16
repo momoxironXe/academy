@@ -1,0 +1,40 @@
+@import './base.css';
+
+form {
+	width: min(55vw, 425px);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+form > div {
+	height: 10vh;
+	display: grid;
+	place-items: center;
+}
+
+input[name="new_task"] {
+	width: min(45vw, 325px);
+	height: 2em;
+	background-color: var(--color-heading);
+	border-style: solid;
+	border-radius: 1em;
+	text-align: center;
+	font-size: larger;
+}
+
+input[name="new_task"]:focus {
+	outline-style: none;
+}
+
+button {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+@media (max-width: 400px) {
+	form {
+		width: min(70vw, 750px);
+	}
+}

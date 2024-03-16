@@ -1,0 +1,13 @@
+@import './base.css';
+
+header {
+	height: 15vh;
+	position: fixed;
+	top: 0;
+	transform-origin: top;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+  

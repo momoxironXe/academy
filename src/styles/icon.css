@@ -1,0 +1,5 @@
+@import './base.css';
+
+svg > g {
+	fill: var(--color-heading);
+}

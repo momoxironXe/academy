@@ -1,0 +1,23 @@
+@import './base.css';
+
+main {
+  width: min(70vw, 750px);
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+aside {
+  height: 55vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
