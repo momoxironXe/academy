@@ -8,6 +8,7 @@ export default {
   components: {
     TasksList,
     TaskCreator,
+    aaa,
   },
   data() {
     return {
