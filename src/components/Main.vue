@@ -4,7 +4,7 @@ import TasksList from "/src/components/TasksList.vue";
 import TaskCreator from "/src/components/TaskCreator.vue";
 import Task from "/src/utils/task.js";
 
-var a;
+var a, b;
 export default {
   components: {
     TasksList,
